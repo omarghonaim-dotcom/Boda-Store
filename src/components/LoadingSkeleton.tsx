@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function LoadingSkeleton() {
   return (
     <div className="min-h-screen bg-white animate-pulse">
