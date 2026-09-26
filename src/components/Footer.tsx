@@ -203,7 +203,7 @@ const Footer: React.FC = () => {
                     href="tel:+201234567890"
                     className="text-zinc-400 text-sm hover:text-orange-400 transition-colors duration-200"
                   >
-                    +20 123 456 7890
+                    +20 10 69647553
                   </a>
                 </li>
                 <li className="flex items-start gap-3">
