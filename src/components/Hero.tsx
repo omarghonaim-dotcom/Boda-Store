@@ -8,7 +8,7 @@ export default function Hero() {
           <img
             className="rounded-2xl"
             width={950}
-            src="/public/images/hero.png"
+            src="/images/hero.png"
             alt=""
           />
         </div>
