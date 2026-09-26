@@ -102,7 +102,15 @@ function ScrollReveal({
 
     observer.observe(element);
 
-    return () => observer.disconnect();
+    // Fallback for mobile: show content after a delay if not triggered by scroll
+    const timeoutId = setTimeout(() => {
+      setIsVisible(true);
+    }, 2000);
+
+    return () => {
+      observer.disconnect();
+      clearTimeout(timeoutId);
+    };
   }, [threshold, once]);
 
   const { hidden, visible } = animationClasses[animation];

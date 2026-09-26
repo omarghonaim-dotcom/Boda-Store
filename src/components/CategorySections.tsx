@@ -15,7 +15,7 @@ export default function CategorySections() {
     const { dispatch } = context;
   return (
     <ScrollReveal>
-      <div className="bg-gray-50 min-h-screen py-10">
+      <div className="bg-gray-50 min-h-screen py-10 px-4">
         {categories.map((category) => {
           const products = data.filter((p) => p.category === category);
           return (
