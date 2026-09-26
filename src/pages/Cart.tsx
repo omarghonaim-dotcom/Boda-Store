@@ -208,7 +208,9 @@ export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
             </div>
 
             <button className="mt-4 w-full cursor-pointer rounded-xl bg-orange-400 py-3 text-xs font-semibold tracking-wide text-gray-900 transition-colors hover:bg-gray-900 hover:text-white">
-              Checkout
+              <a href="https://wa.me/201069647553?text=Hi!%20I%20saw%20your%20link%20%E2%80%94%20I'd%20like%20to%20know%20more.">
+                Checkout
+              </a>
             </button>
 
             <button
